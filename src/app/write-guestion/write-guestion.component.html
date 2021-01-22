@@ -1,0 +1,10 @@
+<div>
+  <div [formGroup]="form">
+    <input type="text" formControlName="message" (keyup)="keyInput($event)">
+    <button (click)="sent($event)">Send</button>
+  </div>
+
+  <div *ngFor="let message of messages">
+    {{message.message}}
+  </div>
+</div>

@@ -1,0 +1,25 @@
+div{
+  background: #aea104;
+  opacity: 60%;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: flex-end;
+  .container{
+    background: none;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    a{
+      text-decoration: none;
+      color: azure;
+      &:hover{
+        transform: scale(1.2);
+        transition: .5s;
+      }
+    }
+  }
+}
+
